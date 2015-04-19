@@ -1,5 +1,10 @@
 <h1> Circuses </h1>
-      <li><a href="/circuses/new"></a>Add Circus</li>
+      <a href="/circuses/new">Add Circus</a> </li>
+
+
+
+
+
 <% @circuses.each do |circus| %>
   <p><%= link_to("#{circus.name}", circus) %></p>
 
