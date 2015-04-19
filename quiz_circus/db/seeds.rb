@@ -10,7 +10,7 @@ Circus.destroy_all
 Circus.create([
   {name: "Barnum and Bailey Circus", image_url: "http://upload.wikimedia.org/wikipedia/commons/8/8c/Barnum_%26_Bailey_clowns_and_geese2.jpg"},
   {name: "Gentry Brothers Circus", image_url: "http://upload.wikimedia.org/wikipedia/commons/5/52/Gentry_Bros._Circus_poster_featuring_Miss_Louise_Hilton,_1920-22.jpg"},
-  {name: "Hoxie's Great American Circus", image_url: "http://www.emovieposter.com/images/moviestars/AA091029/200/circus_poster_hoxies_great_american_circus_JA00300_S.jpg"},
+  {name: "Hoxie's Great American Circus", image_url: "http://ecx.images-amazon.com/images/I/51mEO01EVCL._SY355_.jpg"},
   {name: "Universoul Circus", image_url: "http://www.nationalharbor.com/wp-content/uploads/2015/02/Raise_usoul_logo.jpg"}
 ])
 
