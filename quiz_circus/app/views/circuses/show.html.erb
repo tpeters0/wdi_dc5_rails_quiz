@@ -1,3 +1,16 @@
+<%= link_to "Circus Index", circuses_path(@circuses) %>
+
 <h2><%= @circus.name %></h2>
 
 <%= link_to("Edit", edit_circus_path(@circus)) %>
+
+<section class="entertainers">
+  <h3>Entertainers</h3>
+  <ul>
+    <% @circus.entertainers.each do |entertainer| %>
+      <li>
+          <%= entertainer.name.capitalize %>   -   <%= entertainer.specialty %>
+      </li>
+    <% end %>
+  </ul>
+</section>
